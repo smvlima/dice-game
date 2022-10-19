@@ -1,4 +1,4 @@
-const item = document.getElementsByClassName(header-cta);
+const item = document.querySelector('.header-cta');
 item.addEventListener('click', rollTheDices);
 function rollTheDices () {
 const randomPlayerOne = Math.ceil((Math.random()*6));
